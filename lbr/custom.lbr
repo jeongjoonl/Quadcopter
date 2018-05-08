@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -596,16 +596,16 @@
 </package>
 <package name="NET_BRIDGE">
 <description>Net Bridge</description>
-<smd name="1" x="-0.65" y="0" dx="2.5" dy="0.5" layer="1" stop="no"/>
-<smd name="2" x="0.65" y="0" dx="2.5" dy="0.5" layer="1" stop="no"/>
-<wire x1="-2" y1="0.4" x2="-2" y2="-0.4" width="0.063" layer="39"/>
-<wire x1="2" y1="0.4" x2="-2" y2="0.4" width="0.063" layer="39"/>
-<wire x1="-2" y1="-0.4" x2="2" y2="-0.4" width="0.063" layer="39"/>
-<wire x1="2" y1="-0.4" x2="2" y2="0.4" width="0.063" layer="39"/>
-<wire x1="-0.6" y1="0.3" x2="-0.6" y2="-0.3" width="0.127" layer="51"/>
-<wire x1="-0.6" y1="-0.3" x2="0.6" y2="-0.3" width="0.127" layer="51"/>
-<wire x1="0.6" y1="-0.3" x2="0.6" y2="0.3" width="0.127" layer="51"/>
-<wire x1="0.6" y1="0.3" x2="-0.6" y2="0.3" width="0.127" layer="51"/>
+<smd name="1" x="-0.75" y="0" dx="2" dy="0.5" layer="1" stop="no"/>
+<smd name="2" x="0.75" y="0" dx="2" dy="0.5" layer="1" stop="no"/>
+<wire x1="-1.8" y1="0.3" x2="-1.8" y2="-0.3" width="0.063" layer="39"/>
+<wire x1="1.8" y1="0.3" x2="-1.8" y2="0.3" width="0.063" layer="39"/>
+<wire x1="-1.8" y1="-0.3" x2="1.8" y2="-0.3" width="0.063" layer="39"/>
+<wire x1="1.8" y1="-0.3" x2="1.8" y2="0.3" width="0.063" layer="39"/>
+<wire x1="-0.3" y1="0.3" x2="-0.3" y2="-0.3" width="0.127" layer="51"/>
+<wire x1="-0.3" y1="-0.3" x2="0.3" y2="-0.3" width="0.127" layer="51"/>
+<wire x1="0.3" y1="-0.3" x2="0.3" y2="0.3" width="0.127" layer="51"/>
+<wire x1="0.3" y1="0.3" x2="-0.3" y2="0.3" width="0.127" layer="51"/>
 <text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="VIA">
