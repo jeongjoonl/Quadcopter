@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2662,9 +2662,9 @@ design rules under a new name.</description>
 <element name="C11" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="10uF" x="2.1" y="-4.6" smashed="yes" rot="R270">
 <attribute name="CREATOR" value="Swanson" x="2.1" y="-4.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIST" value="Digikey" x="2.1" y="-4.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DISTPN" value="445-14387-1-ND" x="2.1" y="-4.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTPN" value="445-14388-1-ND" x="2.1" y="-4.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="TDK Corporation" x="2.1" y="-4.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="C2012X5R1E106K085AC" x="2.1" y="-4.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C2012X5R1E106M085AC" x="2.1" y="-4.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="2.1" y="-6.4" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="REVIEWER" value="Swanson" x="2.1" y="-4.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="2.1" y="-4.6" size="1.2" layer="27" font="vector" ratio="10" rot="R270"/>

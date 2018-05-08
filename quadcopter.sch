@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.0.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -2835,9 +2835,9 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <technology name="">
 <attribute name="CREATOR" value="Swanson"/>
 <attribute name="DIST" value="Digikey"/>
-<attribute name="DISTPN" value="445-14387-1-ND"/>
+<attribute name="DISTPN" value="445-14388-1-ND"/>
 <attribute name="MFR" value="TDK Corporation"/>
-<attribute name="MPN" value="C2012X5R1E106K085AC"/>
+<attribute name="MPN" value="C2012X5R1E106M085AC"/>
 <attribute name="REVIEWER" value="Swanson"/>
 <attribute name="VALUE" value="10uF"/>
 </technology>
