@@ -256,10 +256,10 @@
 <text x="-10" y="-27.3" size="1.27" layer="21" font="vector">VCC</text>
 <text x="-13.5" y="-25.9" size="1.27" layer="21" font="vector">BGND</text>
 <dimension x1="0" y1="-28.984271875" x2="0" y2="28.978246875" x3="-60.8" y3="-0.0030125" textsize="1.778" layer="47" dtype="horizontal" visible="yes"/>
-<dimension x1="-34.69119375" y1="69.435990625" x2="-86.90880625" y2="52.164009375" x3="-86.90880625" y3="52.164009375" textsize="1.778" layer="47" dtype="diameter"/>
-<dimension x1="34.69119375" y1="69.435990625" x2="86.90880625" y2="52.164009375" x3="86.90880625" y3="52.164009375" textsize="1.778" layer="47" dtype="diameter"/>
-<dimension x1="34.6909625" y1="-69.435284375" x2="86.9090375" y2="-52.164715625" x3="86.9090375" y3="-52.164715625" textsize="1.778" layer="47" dtype="diameter"/>
-<dimension x1="-34.68134375" y1="-69.406146875" x2="-86.91865625" y2="-52.193853125" x3="-86.91865625" y3="-52.193853125" textsize="1.778" layer="47" dtype="diameter"/>
+<dimension x1="-34.69119375" y1="69.435990625" x2="-86.90880625" y2="52.164009375" x3="-86.90880625" y3="52.164009375" textsize="1.778" layer="47" dtype="diameter" visible="yes"/>
+<dimension x1="34.69119375" y1="69.435990625" x2="86.90880625" y2="52.164009375" x3="86.90880625" y3="52.164009375" textsize="1.778" layer="47" dtype="diameter" visible="yes"/>
+<dimension x1="34.6909625" y1="-69.435284375" x2="86.9090375" y2="-52.164715625" x3="86.9090375" y3="-52.164715625" textsize="1.778" layer="47" dtype="diameter" visible="yes"/>
+<dimension x1="-34.68134375" y1="-69.406146875" x2="-86.91865625" y2="-52.193853125" x3="-86.91865625" y3="-52.193853125" textsize="1.778" layer="47" dtype="diameter" visible="yes"/>
 </plain>
 <libraries>
 <library name="quadparts_prebuilt">
