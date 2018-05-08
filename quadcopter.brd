@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.0.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -255,6 +255,11 @@
 <text x="-7.1" y="-25.9" size="1.27" layer="21" font="vector">SCL</text>
 <text x="-10" y="-27.3" size="1.27" layer="21" font="vector">VCC</text>
 <text x="-13.5" y="-25.9" size="1.27" layer="21" font="vector">BGND</text>
+<dimension x1="0" y1="-28.984271875" x2="0" y2="28.978246875" x3="-60.8" y3="-0.0030125" textsize="1.778" layer="47" dtype="horizontal" visible="yes"/>
+<dimension x1="-34.69119375" y1="69.435990625" x2="-86.90880625" y2="52.164009375" x3="-86.90880625" y3="52.164009375" textsize="1.778" layer="47" dtype="diameter"/>
+<dimension x1="34.69119375" y1="69.435990625" x2="86.90880625" y2="52.164009375" x3="86.90880625" y3="52.164009375" textsize="1.778" layer="47" dtype="diameter"/>
+<dimension x1="34.6909625" y1="-69.435284375" x2="86.9090375" y2="-52.164715625" x3="86.9090375" y3="-52.164715625" textsize="1.778" layer="47" dtype="diameter"/>
+<dimension x1="-34.68134375" y1="-69.406146875" x2="-86.91865625" y2="-52.193853125" x3="-86.91865625" y3="-52.193853125" textsize="1.778" layer="47" dtype="diameter"/>
 </plain>
 <libraries>
 <library name="quadparts_prebuilt">
