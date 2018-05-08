@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="8.7.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3505,16 +3505,16 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </package>
 <package name="NET_BRIDGE">
 <description>Net Bridge</description>
-<smd name="1" x="-0.65" y="0" dx="2.5" dy="0.5" layer="1" stop="no"/>
-<smd name="2" x="0.65" y="0" dx="2.5" dy="0.5" layer="1" stop="no"/>
-<wire x1="-2" y1="0.4" x2="-2" y2="-0.4" width="0.063" layer="39"/>
-<wire x1="2" y1="0.4" x2="-2" y2="0.4" width="0.063" layer="39"/>
-<wire x1="-2" y1="-0.4" x2="2" y2="-0.4" width="0.063" layer="39"/>
-<wire x1="2" y1="-0.4" x2="2" y2="0.4" width="0.063" layer="39"/>
-<wire x1="-0.6" y1="0.3" x2="-0.6" y2="-0.3" width="0.127" layer="51"/>
-<wire x1="-0.6" y1="-0.3" x2="0.6" y2="-0.3" width="0.127" layer="51"/>
-<wire x1="0.6" y1="-0.3" x2="0.6" y2="0.3" width="0.127" layer="51"/>
-<wire x1="0.6" y1="0.3" x2="-0.6" y2="0.3" width="0.127" layer="51"/>
+<smd name="1" x="-0.75" y="0" dx="2" dy="0.5" layer="1" stop="no"/>
+<smd name="2" x="0.75" y="0" dx="2" dy="0.5" layer="1" stop="no"/>
+<wire x1="-1.8" y1="0.3" x2="-1.8" y2="-0.3" width="0.063" layer="39"/>
+<wire x1="1.8" y1="0.3" x2="-1.8" y2="0.3" width="0.063" layer="39"/>
+<wire x1="-1.8" y1="-0.3" x2="1.8" y2="-0.3" width="0.063" layer="39"/>
+<wire x1="1.8" y1="-0.3" x2="1.8" y2="0.3" width="0.063" layer="39"/>
+<wire x1="-0.3" y1="0.3" x2="-0.3" y2="-0.3" width="0.127" layer="51"/>
+<wire x1="-0.3" y1="-0.3" x2="0.3" y2="-0.3" width="0.127" layer="51"/>
+<wire x1="0.3" y1="-0.3" x2="0.3" y2="0.3" width="0.127" layer="51"/>
+<wire x1="0.3" y1="0.3" x2="-0.3" y2="0.3" width="0.127" layer="51"/>
 <text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="SI2302CDS_T1_E3">
@@ -3959,9 +3959,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="P+4" library="quadparts_prebuilt" deviceset="VBAT" device=""/>
 <part name="GND21" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
 <part name="V1" library="quadparts_prebuilt" deviceset="LOCKED-VIA" device="-0.254"/>
-<part name="V2" library="quadparts_prebuilt" deviceset="LOCKED-VIA" device="-0.254"/>
 <part name="V3" library="quadparts_prebuilt" deviceset="LOCKED-VIA" device="-0.254"/>
-<part name="V4" library="quadparts_prebuilt" deviceset="LOCKED-VIA" device="-0.254"/>
 <part name="P+15" library="quadparts_prebuilt" deviceset="3V" device=""/>
 <part name="V5" library="quadparts_prebuilt" deviceset="LOCKED-VIA" device="-0.254"/>
 <part name="V6" library="quadparts_prebuilt" deviceset="LOCKED-VIA" device="-0.254"/>
@@ -3995,6 +3993,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="V31" library="quadparts_prebuilt" deviceset="LOCKED-VIA" device="-0.254"/>
 <part name="V32" library="quadparts_prebuilt" deviceset="LOCKED-VIA" device="-0.254"/>
 <part name="V33" library="quadparts_prebuilt" deviceset="LOCKED-VIA" device="-0.254"/>
+<part name="V34" library="quadparts_prebuilt" deviceset="LOCKED-VIA" device="-0.254"/>
 </parts>
 <sheets>
 <sheet>
@@ -4166,9 +4165,7 @@ Header</text>
 <instance part="P+4" gate="VCC" x="391.16" y="142.24"/>
 <instance part="GND21" gate="1" x="391.16" y="109.22"/>
 <instance part="V1" gate="G$1" x="30.48" y="68.58" rot="R270"/>
-<instance part="V2" gate="G$1" x="35.56" y="68.58" rot="R270"/>
-<instance part="V3" gate="G$1" x="40.64" y="68.58" rot="R270"/>
-<instance part="V4" gate="G$1" x="45.72" y="68.58" rot="R270"/>
+<instance part="V3" gate="G$1" x="33.02" y="68.58" rot="R270"/>
 <instance part="P+15" gate="G$1" x="30.48" y="73.66"/>
 <instance part="V5" gate="G$1" x="30.48" y="33.02" rot="R90"/>
 <instance part="V6" gate="G$1" x="35.56" y="33.02" rot="R90"/>
@@ -4200,8 +4197,9 @@ Header</text>
 <instance part="V29" gate="G$1" x="114.3" y="30.48" rot="R90"/>
 <instance part="V30" gate="G$1" x="119.38" y="30.48" rot="R90"/>
 <instance part="V31" gate="G$1" x="124.46" y="30.48" rot="R90"/>
-<instance part="V32" gate="G$1" x="38.1" y="68.58" rot="R90"/>
+<instance part="V32" gate="G$1" x="35.56" y="68.58" rot="R270"/>
 <instance part="V33" gate="G$1" x="106.68" y="30.48" rot="R270"/>
+<instance part="V34" gate="G$1" x="111.76" y="30.48" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -4489,18 +4487,12 @@ Header</text>
 <pinref part="V1" gate="G$1" pin="N"/>
 <pinref part="P+15" gate="G$1" pin="3V"/>
 <wire x1="30.48" y1="71.12" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="V2" gate="G$1" pin="N"/>
-<wire x1="30.48" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
-<junction x="30.48" y="68.58"/>
 <pinref part="V3" gate="G$1" pin="N"/>
-<wire x1="35.56" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
-<junction x="35.56" y="68.58"/>
-<pinref part="V4" gate="G$1" pin="N"/>
-<wire x1="38.1" y1="68.58" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="68.58" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
-<junction x="40.64" y="68.58"/>
+<wire x1="30.48" y1="68.58" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
+<junction x="30.48" y="68.58"/>
 <pinref part="V32" gate="G$1" pin="N"/>
-<junction x="38.1" y="68.58"/>
+<wire x1="33.02" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
+<junction x="33.02" y="68.58"/>
 </segment>
 </net>
 <net name="RFP" class="0">
@@ -4723,7 +4715,8 @@ Header</text>
 <wire x1="124.46" y1="30.48" x2="119.38" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="V19" gate="G$1" pin="N"/>
 <wire x1="119.38" y1="30.48" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="30.48" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="30.48" x2="111.76" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="30.48" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="30.48" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="30.48" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="30.48" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
@@ -4777,6 +4770,8 @@ Header</text>
 <junction x="124.46" y="30.48"/>
 <pinref part="V33" gate="G$1" pin="N"/>
 <junction x="106.68" y="30.48"/>
+<pinref part="V34" gate="G$1" pin="N"/>
+<junction x="111.76" y="30.48"/>
 </segment>
 </net>
 <net name="C6" class="0">
