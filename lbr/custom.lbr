@@ -608,19 +608,13 @@
 <wire x1="0.3" y1="0.3" x2="-0.3" y2="0.3" width="0.127" layer="51"/>
 <text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
 </package>
-<package name="VIA_0.6">
+<package name="VIA_0.454">
 <description>Via
-Diameter: 0.6mm</description>
-<pad name="VIA" x="0" y="0" drill="0.6"/>
-<circle x="0" y="0" radius="0.5099" width="0.127" layer="39"/>
+diameter: 0.454</description>
+<pad name="VIA" x="0" y="0" drill="0.454"/>
 <text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
-</package>
-<package name="VIA_1.0">
-<description>Via
-diameter: 1.0mm</description>
-<pad name="VIA" x="0" y="0" drill="1"/>
-<circle x="0" y="0" radius="0.721109375" width="0.1524" layer="39"/>
-<text x="0" y="0" size="1.778" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<circle x="0" y="0" radius="0.282840625" width="0.1524" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -760,8 +754,9 @@ diameter: 1.0mm</description>
 </symbol>
 <symbol name="VIA">
 <description>Via</description>
-<pin name="VIA" x="0" y="0" length="short"/>
-<text x="0" y="-2.54" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<pin name="VIA" x="0" y="0" visible="off" length="middle" function="dot"/>
+<text x="5.08" y="-2.54" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="5.08" y="2.54" size="1.27" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -972,27 +967,13 @@ diameter: 1.0mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VIA_" prefix="V">
+<deviceset name="VIA_" prefix="V" uservalue="yes">
 <description>Via</description>
 <gates>
 <gate name="G$1" symbol="VIA" x="0" y="0"/>
 </gates>
 <devices>
-<device name="0.6" package="VIA_0.6">
-<connects>
-<connect gate="G$1" pin="VIA" pad="VIA"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Jeongjoon"/>
-<attribute name="DIST" value="N/A"/>
-<attribute name="DISTPN" value="N/A"/>
-<attribute name="MFR" value="N/A"/>
-<attribute name="MPN" value="N/A"/>
-</technology>
-</technologies>
-</device>
-<device name="1.0" package="VIA_1.0">
+<device name="0.454" package="VIA_0.454">
 <connects>
 <connect gate="G$1" pin="VIA" pad="VIA"/>
 </connects>
