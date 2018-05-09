@@ -4274,7 +4274,7 @@ design rules under a new name.</description>
 <attribute name="DISTPN" value="497-14946-1-ND" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="STMicroelectronics" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="LSM9DS1TR" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="2.1" y="1" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="-3.95" y="2" size="1.27" layer="25" font="vector"/>
 </element>
 <element name="Y1" library="quadparts_prebuilt" package="CRYSTAL-SMD-5X3" value="16MHz" x="10.23" y="-8.31" smashed="yes">
 <attribute name="CREATOR" value="Swanson" x="10.23" y="-8.31" size="1.778" layer="27" display="off"/>
