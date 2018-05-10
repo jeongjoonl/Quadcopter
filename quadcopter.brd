@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -4802,29 +4802,29 @@ design rules under a new name.</description>
 <attribute name="REVIEWER" value="Swanson" x="-4.5" y="8.575" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-4.5" y="8.575" size="1.2" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="C17" library="quadparts_prebuilt" package="CAPMP7343X310_HS" value="220uF" x="-36" y="36" rot="R135">
-<attribute name="CREATOR" value="Swanson" x="-36" y="36" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="DIST" value="Digikey" x="-36" y="36" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="DISTPN" value="478-8912-1-ND" x="-36" y="36" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="MFR" value="AVX Corporation" x="-36" y="36" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="MPN" value="TAJD227K006RNJ" x="-36" y="36" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="REVIEWER" value="Swanson" x="-36" y="36" size="1.778" layer="27" rot="R135" display="off"/>
+<element name="C17" library="quadparts_prebuilt" package="CAPMP7343X310_HS" value="220uF" x="-33" y="33" rot="R135">
+<attribute name="CREATOR" value="Swanson" x="-33" y="33" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="DIST" value="Digikey" x="-33" y="33" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="DISTPN" value="478-8912-1-ND" x="-33" y="33" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="MFR" value="AVX Corporation" x="-33" y="33" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="MPN" value="TAJD227K006RNJ" x="-33" y="33" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="REVIEWER" value="Swanson" x="-33" y="33" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="C18" library="quadparts_prebuilt" package="CAPMP7343X310_HS" value="220uF" x="36" y="36" rot="R45">
-<attribute name="CREATOR" value="Swanson" x="36" y="36" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="DIST" value="Digikey" x="36" y="36" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="DISTPN" value="478-8912-1-ND" x="36" y="36" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="MFR" value="AVX Corporation" x="36" y="36" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="MPN" value="TAJD227K006RNJ" x="36" y="36" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="REVIEWER" value="Swanson" x="36" y="36" size="1.778" layer="27" rot="R45" display="off"/>
+<element name="C18" library="quadparts_prebuilt" package="CAPMP7343X310_HS" value="220uF" x="33" y="33" rot="R45">
+<attribute name="CREATOR" value="Swanson" x="33" y="33" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="DIST" value="Digikey" x="33" y="33" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="DISTPN" value="478-8912-1-ND" x="33" y="33" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="MFR" value="AVX Corporation" x="33" y="33" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="MPN" value="TAJD227K006RNJ" x="33" y="33" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="REVIEWER" value="Swanson" x="33" y="33" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
-<element name="C19" library="quadparts_prebuilt" package="CAPMP7343X310_HS" value="220uF" x="-36" y="-36" rot="R225">
-<attribute name="CREATOR" value="Swanson" x="-36" y="-36" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="DIST" value="Digikey" x="-36" y="-36" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="DISTPN" value="478-8912-1-ND" x="-36" y="-36" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="MFR" value="AVX Corporation" x="-36" y="-36" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="MPN" value="TAJD227K006RNJ" x="-36" y="-36" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="REVIEWER" value="Swanson" x="-36" y="-36" size="1.778" layer="27" rot="R225" display="off"/>
+<element name="C19" library="quadparts_prebuilt" package="CAPMP7343X310_HS" value="220uF" x="-33" y="-33" rot="R225">
+<attribute name="CREATOR" value="Swanson" x="-33" y="-33" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="DIST" value="Digikey" x="-33" y="-33" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="DISTPN" value="478-8912-1-ND" x="-33" y="-33" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="MFR" value="AVX Corporation" x="-33" y="-33" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="MPN" value="TAJD227K006RNJ" x="-33" y="-33" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="REVIEWER" value="Swanson" x="-33" y="-33" size="1.778" layer="27" rot="R225" display="off"/>
 </element>
 <element name="C2" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.75pF" x="20.95" y="4.25" smashed="yes" rot="R90">
 <attribute name="CREATOR" value="Swanson" x="20.95" y="4.25" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4836,13 +4836,13 @@ design rules under a new name.</description>
 <attribute name="REVIEWER" value="Swanson" x="20.95" y="4.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="20.95" y="4.25" size="1.2" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="C20" library="quadparts_prebuilt" package="CAPMP7343X310_HS" value="220uF" x="36" y="-36" rot="R315">
-<attribute name="CREATOR" value="Swanson" x="36" y="-36" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="DIST" value="Digikey" x="36" y="-36" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="DISTPN" value="478-8912-1-ND" x="36" y="-36" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="MFR" value="AVX Corporation" x="36" y="-36" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="MPN" value="TAJD227K006RNJ" x="36" y="-36" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="REVIEWER" value="Swanson" x="36" y="-36" size="1.778" layer="27" rot="R315" display="off"/>
+<element name="C20" library="quadparts_prebuilt" package="CAPMP7343X310_HS" value="220uF" x="33" y="-33" rot="R315">
+<attribute name="CREATOR" value="Swanson" x="33" y="-33" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="DIST" value="Digikey" x="33" y="-33" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="DISTPN" value="478-8912-1-ND" x="33" y="-33" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="MFR" value="AVX Corporation" x="33" y="-33" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="MPN" value="TAJD227K006RNJ" x="33" y="-33" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="REVIEWER" value="Swanson" x="33" y="-33" size="1.778" layer="27" rot="R315" display="off"/>
 </element>
 <element name="C21" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.1uF" x="-18.3" y="16.7" smashed="yes" rot="R135">
 <attribute name="CREATOR" value="Swanson" x="-18.3" y="16.7" size="1.778" layer="27" rot="R135" display="off"/>
@@ -4954,45 +4954,45 @@ design rules under a new name.</description>
 <attribute name="REVIEWER" value="Swanson" x="15.6" y="9.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="15.6" y="9.5" size="1.2" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="D1" library="quadparts_prebuilt" package="SOD3716X135_HS" value="360mV" x="-27.5" y="27.5" smashed="yes" rot="R45">
-<attribute name="CREATOR" value="Swanson" x="-27.5" y="27.5" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="DIST" value="Digikey" x="-27.5" y="27.5" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="DISTPN" value="CRS08QMCT-ND" x="-27.5" y="27.5" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="MFR" value="Toshiba Semiconductor and Storage" x="-27.5" y="27.5" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="MPN" value="CRS08(TE85L,Q,M)" x="-27.5" y="27.5" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="NAME" x="-28.85" y="24.55" size="1.27" layer="25" font="vector" rot="R315"/>
-<attribute name="REVIEWER" value="Swanson" x="-27.5" y="27.5" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="VALUE" x="-27.5" y="27.5" size="1.2" layer="27" font="vector" ratio="10" rot="R45"/>
+<element name="D1" library="quadparts_prebuilt" package="SOD3716X135_HS" value="360mV" x="-24.5" y="24.5" smashed="yes" rot="R45">
+<attribute name="CREATOR" value="Swanson" x="-24.5" y="24.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="DIST" value="Digikey" x="-24.5" y="24.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="DISTPN" value="CRS08QMCT-ND" x="-24.5" y="24.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="MFR" value="Toshiba Semiconductor and Storage" x="-24.5" y="24.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="MPN" value="CRS08(TE85L,Q,M)" x="-24.5" y="24.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="NAME" x="-25.85" y="21.55" size="1.27" layer="25" font="vector" rot="R315"/>
+<attribute name="REVIEWER" value="Swanson" x="-24.5" y="24.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="VALUE" x="-24.5" y="24.5" size="1.2" layer="27" font="vector" ratio="10" rot="R45"/>
 </element>
-<element name="D2" library="quadparts_prebuilt" package="SOD3716X135_HS" value="360mV" x="27.5" y="27.5" smashed="yes" rot="R315">
-<attribute name="CREATOR" value="Swanson" x="27.5" y="27.5" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="DIST" value="Digikey" x="27.5" y="27.5" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="DISTPN" value="CRS08QMCT-ND" x="27.5" y="27.5" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="MFR" value="Toshiba Semiconductor and Storage" x="27.5" y="27.5" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="MPN" value="CRS08(TE85L,Q,M)" x="27.5" y="27.5" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="NAME" x="24.55" y="28.85" size="1.27" layer="25" font="vector" rot="SR225"/>
-<attribute name="REVIEWER" value="Swanson" x="27.5" y="27.5" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="VALUE" x="27.5" y="27.5" size="1.2" layer="27" font="vector" ratio="10" rot="R315"/>
+<element name="D2" library="quadparts_prebuilt" package="SOD3716X135_HS" value="360mV" x="24.5" y="24.5" smashed="yes" rot="R315">
+<attribute name="CREATOR" value="Swanson" x="24.5" y="24.5" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="DIST" value="Digikey" x="24.5" y="24.5" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="DISTPN" value="CRS08QMCT-ND" x="24.5" y="24.5" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="MFR" value="Toshiba Semiconductor and Storage" x="24.5" y="24.5" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="MPN" value="CRS08(TE85L,Q,M)" x="24.5" y="24.5" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="NAME" x="21.55" y="25.85" size="1.27" layer="25" font="vector" rot="SR225"/>
+<attribute name="REVIEWER" value="Swanson" x="24.5" y="24.5" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="VALUE" x="24.5" y="24.5" size="1.2" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="D3" library="quadparts_prebuilt" package="SOD3716X135_HS" value="360mV" x="-27.5" y="-27.5" smashed="yes" rot="R135">
-<attribute name="CREATOR" value="Swanson" x="-27.5" y="-27.5" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="DIST" value="Digikey" x="-27.5" y="-27.5" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="DISTPN" value="CRS08QMCT-ND" x="-27.5" y="-27.5" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="MFR" value="Toshiba Semiconductor and Storage" x="-27.5" y="-27.5" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="MPN" value="CRS08(TE85L,Q,M)" x="-27.5" y="-27.5" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="NAME" x="-24.5" y="-28.7" size="1.27" layer="25" font="vector" rot="R45"/>
-<attribute name="REVIEWER" value="Swanson" x="-27.5" y="-27.5" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="VALUE" x="-27.5" y="-27.5" size="1.2" layer="27" font="vector" ratio="10" rot="R135"/>
+<element name="D3" library="quadparts_prebuilt" package="SOD3716X135_HS" value="360mV" x="-24.5" y="-24.5" smashed="yes" rot="R135">
+<attribute name="CREATOR" value="Swanson" x="-24.5" y="-24.5" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="DIST" value="Digikey" x="-24.5" y="-24.5" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="DISTPN" value="CRS08QMCT-ND" x="-24.5" y="-24.5" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="MFR" value="Toshiba Semiconductor and Storage" x="-24.5" y="-24.5" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="MPN" value="CRS08(TE85L,Q,M)" x="-24.5" y="-24.5" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="NAME" x="-21.5" y="-25.7" size="1.27" layer="25" font="vector" rot="R45"/>
+<attribute name="REVIEWER" value="Swanson" x="-24.5" y="-24.5" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="VALUE" x="-24.5" y="-24.5" size="1.2" layer="27" font="vector" ratio="10" rot="R135"/>
 </element>
-<element name="D4" library="quadparts_prebuilt" package="SOD3716X135_HS" value="360mV" x="27.5" y="-27.5" smashed="yes" rot="R225">
-<attribute name="CREATOR" value="Swanson" x="27.5" y="-27.5" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="DIST" value="Digikey" x="27.5" y="-27.5" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="DISTPN" value="CRS08QMCT-ND" x="27.5" y="-27.5" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="MFR" value="Toshiba Semiconductor and Storage" x="27.5" y="-27.5" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="MPN" value="CRS08(TE85L,Q,M)" x="27.5" y="-27.5" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="NAME" x="28.85" y="-24.55" size="1.27" layer="25" font="vector" rot="SR135"/>
-<attribute name="REVIEWER" value="Swanson" x="27.5" y="-27.5" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="VALUE" x="27.5" y="-27.5" size="1.2" layer="27" font="vector" ratio="10" rot="R225"/>
+<element name="D4" library="quadparts_prebuilt" package="SOD3716X135_HS" value="360mV" x="24.5" y="-24.5" smashed="yes" rot="R225">
+<attribute name="CREATOR" value="Swanson" x="24.5" y="-24.5" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="DIST" value="Digikey" x="24.5" y="-24.5" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="DISTPN" value="CRS08QMCT-ND" x="24.5" y="-24.5" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="MFR" value="Toshiba Semiconductor and Storage" x="24.5" y="-24.5" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="MPN" value="CRS08(TE85L,Q,M)" x="24.5" y="-24.5" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="NAME" x="25.85" y="-21.55" size="1.27" layer="25" font="vector" rot="SR135"/>
+<attribute name="REVIEWER" value="Swanson" x="24.5" y="-24.5" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="VALUE" x="24.5" y="-24.5" size="1.2" layer="27" font="vector" ratio="10" rot="R225"/>
 </element>
 <element name="D5" library="custom" package="LED_0805" value="RED" x="-2.4" y="-15.2" smashed="yes">
 <attribute name="CREATOR" value="Jeongjoon" x="-2.4" y="-15.2" size="1.778" layer="27" display="off"/>
@@ -5067,74 +5067,74 @@ design rules under a new name.</description>
 <attribute name="REVIEWER" value="Swanson" x="6.58" y="26.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="0.31" y="28.475" size="1.27" layer="27" font="vector" rot="R180" align="center"/>
 </element>
-<element name="M1" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="-30.2" y="29.5" smashed="yes" rot="R45">
-<attribute name="CREATOR" value="Swanson" x="-30.2" y="29.5" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="DIST" value="NA" x="-30.2" y="29.5" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="DISTPN" value="NA" x="-30.2" y="29.5" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="MFR" value="NA" x="-30.2" y="29.5" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="MPN" value="NA" x="-30.2" y="29.5" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="NAME" x="-33.367765625" y="30.574871875" size="1.27" layer="25" font="vector" rot="R45" align="center"/>
-<attribute name="REVIEWER" value="Swanson" x="-30.2" y="29.5" size="1.778" layer="27" rot="R45" display="off"/>
+<element name="M1" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="-27.2" y="26.5" smashed="yes" rot="R45">
+<attribute name="CREATOR" value="Swanson" x="-27.2" y="26.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="DIST" value="NA" x="-27.2" y="26.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="DISTPN" value="NA" x="-27.2" y="26.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="MFR" value="NA" x="-27.2" y="26.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="MPN" value="NA" x="-27.2" y="26.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="NAME" x="-30.367765625" y="27.574871875" size="1.27" layer="25" font="vector" rot="R45" align="center"/>
+<attribute name="REVIEWER" value="Swanson" x="-27.2" y="26.5" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
-<element name="M2" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="29.5" y="30.2" smashed="yes" rot="R315">
-<attribute name="CREATOR" value="Swanson" x="29.5" y="30.2" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="DIST" value="NA" x="29.5" y="30.2" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="DISTPN" value="NA" x="29.5" y="30.2" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="MFR" value="NA" x="29.5" y="30.2" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="MPN" value="NA" x="29.5" y="30.2" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="NAME" x="30.574871875" y="33.367765625" size="1.27" layer="25" font="vector" rot="R315" align="center"/>
-<attribute name="REVIEWER" value="Swanson" x="29.5" y="30.2" size="1.778" layer="27" rot="R315" display="off"/>
+<element name="M2" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="26.5" y="27.2" smashed="yes" rot="R315">
+<attribute name="CREATOR" value="Swanson" x="26.5" y="27.2" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="DIST" value="NA" x="26.5" y="27.2" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="DISTPN" value="NA" x="26.5" y="27.2" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="MFR" value="NA" x="26.5" y="27.2" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="MPN" value="NA" x="26.5" y="27.2" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="NAME" x="27.574871875" y="30.367765625" size="1.27" layer="25" font="vector" rot="R315" align="center"/>
+<attribute name="REVIEWER" value="Swanson" x="26.5" y="27.2" size="1.778" layer="27" rot="R315" display="off"/>
 </element>
-<element name="M3" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="-29.5" y="-30.2" smashed="yes" rot="R135">
-<attribute name="CREATOR" value="Swanson" x="-29.5" y="-30.2" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="DIST" value="NA" x="-29.5" y="-30.2" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="DISTPN" value="NA" x="-29.5" y="-30.2" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="MFR" value="NA" x="-29.5" y="-30.2" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="MPN" value="NA" x="-29.5" y="-30.2" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="NAME" x="-30.574871875" y="-33.367765625" size="1.27" layer="25" font="vector" rot="SR135" align="center"/>
-<attribute name="REVIEWER" value="Swanson" x="-29.5" y="-30.2" size="1.778" layer="27" rot="R135" display="off"/>
+<element name="M3" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="-26.5" y="-27.2" smashed="yes" rot="R135">
+<attribute name="CREATOR" value="Swanson" x="-26.5" y="-27.2" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="DIST" value="NA" x="-26.5" y="-27.2" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="DISTPN" value="NA" x="-26.5" y="-27.2" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="MFR" value="NA" x="-26.5" y="-27.2" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="MPN" value="NA" x="-26.5" y="-27.2" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="NAME" x="-27.574871875" y="-30.367765625" size="1.27" layer="25" font="vector" rot="SR135" align="center"/>
+<attribute name="REVIEWER" value="Swanson" x="-26.5" y="-27.2" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="M4" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="30.2" y="-29.5" smashed="yes" rot="R225">
-<attribute name="CREATOR" value="Swanson" x="30.2" y="-29.5" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="DIST" value="NA" x="30.2" y="-29.5" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="DISTPN" value="NA" x="30.2" y="-29.5" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="MFR" value="NA" x="30.2" y="-29.5" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="MPN" value="NA" x="30.2" y="-29.5" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="NAME" x="33.367765625" y="-30.574871875" size="1.27" layer="25" font="vector" rot="SR225" align="center"/>
-<attribute name="REVIEWER" value="Swanson" x="30.2" y="-29.5" size="1.778" layer="27" rot="R225" display="off"/>
+<element name="M4" library="quadparts_prebuilt" package="MOTOR_PADS" value="MOTOR_PADS" x="27.2" y="-26.5" smashed="yes" rot="R225">
+<attribute name="CREATOR" value="Swanson" x="27.2" y="-26.5" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="DIST" value="NA" x="27.2" y="-26.5" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="DISTPN" value="NA" x="27.2" y="-26.5" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="MFR" value="NA" x="27.2" y="-26.5" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="MPN" value="NA" x="27.2" y="-26.5" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="NAME" x="30.367765625" y="-27.574871875" size="1.27" layer="25" font="vector" rot="SR225" align="center"/>
+<attribute name="REVIEWER" value="Swanson" x="27.2" y="-26.5" size="1.778" layer="27" rot="R225" display="off"/>
 </element>
 <element name="N1" library="custom" package="NET_BRIDGE" value="NET_BRIDGE" x="-8.5" y="-4.1" smashed="yes" rot="R315">
 <attribute name="CREATOR" value="Jeongjoon" x="-8.5" y="-4.1" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="DIST" value="NA" x="-8.5" y="-4.1" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="DISTPN" value="NA" x="-8.5" y="-4.1" size="1.778" layer="27" rot="R315" display="off"/>
 </element>
-<element name="Q1" library="custom" package="SI2302CDS_T1_E3" value="" x="-24" y="24" rot="R45">
-<attribute name="CREATOR" value="Jeongjoon" x="-24" y="24" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="DIST" value="Digikey" x="-24" y="24" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" x="-24" y="24" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="MFR" value="Vishay Siliconix" x="-24" y="24" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="MPN" value="SI2302CDS-T1-E3" x="-24" y="24" size="1.778" layer="27" rot="R45" display="off"/>
+<element name="Q1" library="custom" package="SI2302CDS_T1_E3" value="" x="-21" y="21" rot="R45">
+<attribute name="CREATOR" value="Jeongjoon" x="-21" y="21" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="DIST" value="Digikey" x="-21" y="21" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" x="-21" y="21" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="MFR" value="Vishay Siliconix" x="-21" y="21" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="MPN" value="SI2302CDS-T1-E3" x="-21" y="21" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
-<element name="Q2" library="custom" package="SI2302CDS_T1_E3" value="" x="24" y="24" rot="R315">
-<attribute name="CREATOR" value="Jeongjoon" x="24" y="24" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="DIST" value="Digikey" x="24" y="24" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" x="24" y="24" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="MFR" value="Vishay Siliconix" x="24" y="24" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="MPN" value="SI2302CDS-T1-E3" x="24" y="24" size="1.778" layer="27" rot="R315" display="off"/>
+<element name="Q2" library="custom" package="SI2302CDS_T1_E3" value="" x="21" y="21" rot="R315">
+<attribute name="CREATOR" value="Jeongjoon" x="21" y="21" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="DIST" value="Digikey" x="21" y="21" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" x="21" y="21" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="MFR" value="Vishay Siliconix" x="21" y="21" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="MPN" value="SI2302CDS-T1-E3" x="21" y="21" size="1.778" layer="27" rot="R315" display="off"/>
 </element>
-<element name="Q3" library="custom" package="SI2302CDS_T1_E3" value="" x="-24" y="-24" rot="R135">
-<attribute name="CREATOR" value="Jeongjoon" x="-24" y="-24" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="DIST" value="Digikey" x="-24" y="-24" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" x="-24" y="-24" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="MFR" value="Vishay Siliconix" x="-24" y="-24" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="MPN" value="SI2302CDS-T1-E3" x="-24" y="-24" size="1.778" layer="27" rot="R135" display="off"/>
+<element name="Q3" library="custom" package="SI2302CDS_T1_E3" value="" x="-21" y="-21" rot="R135">
+<attribute name="CREATOR" value="Jeongjoon" x="-21" y="-21" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="DIST" value="Digikey" x="-21" y="-21" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" x="-21" y="-21" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="MFR" value="Vishay Siliconix" x="-21" y="-21" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="MPN" value="SI2302CDS-T1-E3" x="-21" y="-21" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="Q4" library="custom" package="SI2302CDS_T1_E3" value="" x="24" y="-24" rot="R225">
-<attribute name="CREATOR" value="Jeongjoon" x="24" y="-24" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="DIST" value="Digikey" x="24" y="-24" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" x="24" y="-24" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="MFR" value="Vishay Siliconix" x="24" y="-24" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="MPN" value="SI2302CDS-T1-E3" x="24" y="-24" size="1.778" layer="27" rot="R225" display="off"/>
+<element name="Q4" library="custom" package="SI2302CDS_T1_E3" value="" x="21" y="-21" rot="R225">
+<attribute name="CREATOR" value="Jeongjoon" x="21" y="-21" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="DIST" value="Digikey" x="21" y="-21" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" x="21" y="-21" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="MFR" value="Vishay Siliconix" x="21" y="-21" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="MPN" value="SI2302CDS-T1-E3" x="21" y="-21" size="1.778" layer="27" rot="R225" display="off"/>
 </element>
 <element name="R1" library="quadparts_prebuilt" package="RESC2012X60_HS" value="10K" x="17.68" y="9.55" smashed="yes" rot="R270">
 <attribute name="CREATOR" value="Swanson" x="17.68" y="9.55" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5333,45 +5333,45 @@ design rules under a new name.</description>
 <attribute name="DIST" value="NA" x="7.6" y="-1.255" size="1.778" layer="27" display="off"/>
 <attribute name="DISTPN" value="NA" x="7.6" y="-1.255" size="1.778" layer="27" display="off"/>
 </element>
-<element name="V5" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="-40" y="40" smashed="yes">
-<attribute name="CREATOR" value="Swanson" x="-40" y="40" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="NA" x="-40" y="40" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="NA" x="-40" y="40" size="1.778" layer="27" display="off"/>
+<element name="V5" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="-37" y="37" smashed="yes">
+<attribute name="CREATOR" value="Swanson" x="-37" y="37" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="NA" x="-37" y="37" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="NA" x="-37" y="37" size="1.778" layer="27" display="off"/>
 </element>
-<element name="V6" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="40" y="40" smashed="yes">
-<attribute name="CREATOR" value="Swanson" x="40" y="40" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="NA" x="40" y="40" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="NA" x="40" y="40" size="1.778" layer="27" display="off"/>
+<element name="V6" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="37" y="37" smashed="yes">
+<attribute name="CREATOR" value="Swanson" x="37" y="37" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="NA" x="37" y="37" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="NA" x="37" y="37" size="1.778" layer="27" display="off"/>
 </element>
-<element name="V7" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="-40" y="-40" smashed="yes">
-<attribute name="CREATOR" value="Swanson" x="-40" y="-40" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="NA" x="-40" y="-40" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="NA" x="-40" y="-40" size="1.778" layer="27" display="off"/>
+<element name="V7" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="-37" y="-37" smashed="yes">
+<attribute name="CREATOR" value="Swanson" x="-37" y="-37" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="NA" x="-37" y="-37" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="NA" x="-37" y="-37" size="1.778" layer="27" display="off"/>
 </element>
-<element name="V8" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="40" y="-40" smashed="yes">
-<attribute name="CREATOR" value="Swanson" x="40" y="-40" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="NA" x="40" y="-40" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="NA" x="40" y="-40" size="1.778" layer="27" display="off"/>
+<element name="V8" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="37" y="-37" smashed="yes">
+<attribute name="CREATOR" value="Swanson" x="37" y="-37" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="NA" x="37" y="-37" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="NA" x="37" y="-37" size="1.778" layer="27" display="off"/>
 </element>
-<element name="V9" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="-32" y="32" smashed="yes">
-<attribute name="CREATOR" value="Swanson" x="-32" y="32" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="NA" x="-32" y="32" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="NA" x="-32" y="32" size="1.778" layer="27" display="off"/>
+<element name="V9" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="-29" y="29" smashed="yes">
+<attribute name="CREATOR" value="Swanson" x="-29" y="29" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="NA" x="-29" y="29" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="NA" x="-29" y="29" size="1.778" layer="27" display="off"/>
 </element>
-<element name="V10" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="32" y="32" smashed="yes">
-<attribute name="CREATOR" value="Swanson" x="32" y="32" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="NA" x="32" y="32" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="NA" x="32" y="32" size="1.778" layer="27" display="off"/>
+<element name="V10" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="29" y="29" smashed="yes">
+<attribute name="CREATOR" value="Swanson" x="29" y="29" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="NA" x="29" y="29" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="NA" x="29" y="29" size="1.778" layer="27" display="off"/>
 </element>
-<element name="V11" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="-32" y="-32" smashed="yes">
-<attribute name="CREATOR" value="Swanson" x="-32" y="-32" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="NA" x="-32" y="-32" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="NA" x="-32" y="-32" size="1.778" layer="27" display="off"/>
+<element name="V11" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="-29" y="-29" smashed="yes">
+<attribute name="CREATOR" value="Swanson" x="-29" y="-29" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="NA" x="-29" y="-29" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="NA" x="-29" y="-29" size="1.778" layer="27" display="off"/>
 </element>
-<element name="V12" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="32" y="-32" smashed="yes">
-<attribute name="CREATOR" value="Swanson" x="32" y="-32" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="NA" x="32" y="-32" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="NA" x="32" y="-32" size="1.778" layer="27" display="off"/>
+<element name="V12" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="29" y="-29" smashed="yes">
+<attribute name="CREATOR" value="Swanson" x="29" y="-29" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="NA" x="29" y="-29" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="NA" x="29" y="-29" size="1.778" layer="27" display="off"/>
 </element>
 <element name="V13" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="18" y="-3" smashed="yes">
 <attribute name="CREATOR" value="Swanson" x="18" y="-3" size="1.778" layer="27" display="off"/>
@@ -5525,25 +5525,25 @@ design rules under a new name.</description>
 <attribute name="DIST" value="NA" x="11.95" y="-5.5245" size="1.778" layer="27" display="off"/>
 <attribute name="DISTPN" value="NA" x="11.95" y="-5.5245" size="1.778" layer="27" display="off"/>
 </element>
-<element name="V38" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="-21.6535" y="24.4475" smashed="yes">
-<attribute name="CREATOR" value="Swanson" x="-21.6535" y="24.4475" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="NA" x="-21.6535" y="24.4475" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="NA" x="-21.6535" y="24.4475" size="1.778" layer="27" display="off"/>
+<element name="V38" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="-18.6535" y="21.4475" smashed="yes">
+<attribute name="CREATOR" value="Swanson" x="-18.6535" y="21.4475" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="NA" x="-18.6535" y="21.4475" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="NA" x="-18.6535" y="21.4475" size="1.778" layer="27" display="off"/>
 </element>
-<element name="V39" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="24.4475" y="21.6535" smashed="yes">
-<attribute name="CREATOR" value="Swanson" x="24.4475" y="21.6535" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="NA" x="24.4475" y="21.6535" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="NA" x="24.4475" y="21.6535" size="1.778" layer="27" display="off"/>
+<element name="V39" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="21.4475" y="18.6535" smashed="yes">
+<attribute name="CREATOR" value="Swanson" x="21.4475" y="18.6535" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="NA" x="21.4475" y="18.6535" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="NA" x="21.4475" y="18.6535" size="1.778" layer="27" display="off"/>
 </element>
-<element name="V40" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="-24.4475" y="-21.6535" smashed="yes">
-<attribute name="CREATOR" value="Swanson" x="-24.4475" y="-21.6535" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="NA" x="-24.4475" y="-21.6535" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="NA" x="-24.4475" y="-21.6535" size="1.778" layer="27" display="off"/>
+<element name="V40" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="-21.4475" y="-18.6535" smashed="yes">
+<attribute name="CREATOR" value="Swanson" x="-21.4475" y="-18.6535" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="NA" x="-21.4475" y="-18.6535" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="NA" x="-21.4475" y="-18.6535" size="1.778" layer="27" display="off"/>
 </element>
-<element name="V41" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="21.6535" y="-24.4475" smashed="yes">
-<attribute name="CREATOR" value="Swanson" x="21.6535" y="-24.4475" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="NA" x="21.6535" y="-24.4475" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="NA" x="21.6535" y="-24.4475" size="1.778" layer="27" display="off"/>
+<element name="V41" library="quadparts_prebuilt" package="VIA-0.254MM" value="" x="18.6535" y="-21.4475" smashed="yes">
+<attribute name="CREATOR" value="Swanson" x="18.6535" y="-21.4475" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="NA" x="18.6535" y="-21.4475" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="NA" x="18.6535" y="-21.4475" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LOGO1" library="logo" package="LOGO_SCALE_0.9_L21" value="" x="-13.425" y="10.975"/>
 <element name="LOGO2" library="logo" package="LOGO_SCALE_2.0_L22" value="" x="-16" y="-18" rot="R90"/>
@@ -5807,30 +5807,29 @@ design rules under a new name.</description>
 <contactref element="J3" pad="2"/>
 <contactref element="V1" pad="P1"/>
 <polygon width="0.5" layer="15" isolate="0.05" orphans="yes">
-<vertex x="-4.3" y="2.8"/>
+<vertex x="-5" y="2.8"/>
 <vertex x="3" y="2.8"/>
 <vertex x="3" y="-2.8"/>
 <vertex x="-3" y="-2.8"/>
 <vertex x="-3" y="2.2"/>
-<vertex x="-4.3" y="2.2"/>
-<vertex x="-4.3" y="-2.7"/>
-<vertex x="-6.2" y="-2.7"/>
-<vertex x="-20.6" y="-17.1"/>
-<vertex x="-17.2" y="-20.5"/>
-<vertex x="-5.1" y="-20.5"/>
-<vertex x="-5" y="-24.2"/>
-<vertex x="13.7" y="-24.1"/>
-<vertex x="23.4" y="-14.4"/>
+<vertex x="-5" y="2.2"/>
+<vertex x="-5" y="-1.9"/>
+<vertex x="-20.1" y="-17"/>
+<vertex x="-17.1" y="-20"/>
+<vertex x="-5.2" y="-20"/>
+<vertex x="-5.1" y="-24.2"/>
+<vertex x="13" y="-24.2"/>
+<vertex x="23.4" y="-13.8"/>
 <vertex x="23.4" y="-6.4"/>
 <vertex x="16.8" y="-6.4"/>
 <vertex x="16.8" y="7.3"/>
 <vertex x="23.4" y="7.3"/>
-<vertex x="23.4" y="14.4"/>
-<vertex x="17.3" y="20.5"/>
-<vertex x="-17.4" y="20.5"/>
-<vertex x="-20.6" y="17.3"/>
-<vertex x="-9.2" y="5.9"/>
-<vertex x="-4.3" y="5.9"/>
+<vertex x="23.4" y="13.7"/>
+<vertex x="17.1" y="20"/>
+<vertex x="-17.1" y="20"/>
+<vertex x="-20.4" y="16.7"/>
+<vertex x="-9.2" y="5.5"/>
+<vertex x="-5" y="5.5"/>
 </polygon>
 <contactref element="V32" pad="P1"/>
 <contactref element="V3" pad="P1"/>
@@ -6009,26 +6008,25 @@ design rules under a new name.</description>
 <vertex x="16.8" y="7.3"/>
 </polygon>
 <polygon width="0.5" layer="2" isolate="0.05" orphans="yes">
-<vertex x="-4.3" y="2.8"/>
+<vertex x="-5" y="2.8"/>
 <vertex x="3" y="2.8"/>
 <vertex x="3" y="-2.8"/>
 <vertex x="-3" y="-2.8"/>
 <vertex x="-3" y="2.2"/>
-<vertex x="-4.3" y="2.2"/>
-<vertex x="-4.3" y="-2.7"/>
-<vertex x="-6.2" y="-2.7"/>
-<vertex x="-20.6" y="-17.1"/>
-<vertex x="-17.2" y="-20.5"/>
-<vertex x="-5.1" y="-20.5"/>
-<vertex x="-5" y="-24.2"/>
-<vertex x="13.7" y="-24.1"/>
-<vertex x="23.4" y="-14.4"/>
-<vertex x="23.4" y="14.4"/>
-<vertex x="17.3" y="20.5"/>
-<vertex x="-17.4" y="20.5"/>
-<vertex x="-20.6" y="17.3"/>
-<vertex x="-9.2" y="5.9"/>
-<vertex x="-4.3" y="5.9"/>
+<vertex x="-5" y="2.2"/>
+<vertex x="-5" y="-1.9"/>
+<vertex x="-20.1" y="-17"/>
+<vertex x="-17.1" y="-20"/>
+<vertex x="-5.2" y="-20"/>
+<vertex x="-5.1" y="-24.2"/>
+<vertex x="13" y="-24.2"/>
+<vertex x="23.4" y="-13.8"/>
+<vertex x="23.4" y="13.7"/>
+<vertex x="17.1" y="20"/>
+<vertex x="-17.1" y="20"/>
+<vertex x="-20.4" y="16.7"/>
+<vertex x="-9.2" y="5.5"/>
+<vertex x="-5" y="5.5"/>
 </polygon>
 <contactref element="V31" pad="P1"/>
 <contactref element="V20" pad="P1"/>
@@ -6242,6 +6240,10 @@ design rules under a new name.</description>
 <wire x1="14.478" y1="-8.4455" x2="14.6" y2="-8.595" width="0.127" layer="1"/>
 <wire x1="17.9705" y1="-4.953" x2="18" y2="-5" width="0.127" layer="1"/>
 <wire x1="20.447" y1="6.477" x2="20.447" y2="6.49998125" width="0.127" layer="1"/>
+<wire x1="21.0185" y1="6.5405" x2="21" y2="6.5" width="0.127" layer="1"/>
+<wire x1="21.0185" y1="6.5405" x2="20.999965625" y2="6.5000125" width="0.127" layer="1"/>
+<wire x1="20.193" y1="6.477" x2="20" y2="6.5" width="0.127" layer="1"/>
+<wire x1="20.193" y1="6.477" x2="20.193" y2="6.49998125" width="0.127" layer="1"/>
 </signal>
 <signal name="C6">
 <contactref element="U1" pad="60"/>
@@ -6344,58 +6346,65 @@ design rules under a new name.</description>
 <contactref element="J3" pad="9"/>
 <contactref element="R14" pad="2"/>
 <polygon width="0.5" layer="15" isolate="0.05" orphans="yes">
-<vertex x="-6.7" y="-21.5"/>
-<vertex x="-6.7" y="-25.1"/>
-<vertex x="14.2" y="-25.1"/>
-<vertex x="21.9" y="-17.4"/>
-<vertex x="44.5" y="-40"/>
-<vertex x="40" y="-44.5"/>
+<vertex x="-6.1" y="-21"/>
+<vertex x="-6.1" y="-25.1"/>
+<vertex x="13" y="-25.1"/>
+<vertex x="23.4" y="-14.7"/>
+<vertex x="23.4" y="-18.9"/>
+<vertex x="43.4" y="-38.9"/>
+<vertex x="38.9" y="-43.4"/>
 <vertex x="20.1" y="-24.6"/>
-<vertex x="12.8" y="-26.9"/>
-<vertex x="0" y="-28.5"/>
-<vertex x="-12.8" y="-26.9"/>
+<vertex x="13" y="-27"/>
+<vertex x="0" y="-28.6"/>
+<vertex x="-13" y="-27"/>
 <vertex x="-20.1" y="-24.6"/>
-<vertex x="-40" y="-44.5"/>
-<vertex x="-44.5" y="-40"/>
+<vertex x="-38.9" y="-43.4"/>
+<vertex x="-43.4" y="-38.9"/>
 <vertex x="-24.6" y="-20.1"/>
+<vertex x="-27" y="-13"/>
+<vertex x="-28.6" y="0"/>
+<vertex x="-27" y="13"/>
 <vertex x="-24.6" y="20.1"/>
-<vertex x="-44.5" y="40"/>
-<vertex x="-40" y="44.5"/>
+<vertex x="-43.4" y="38.9"/>
+<vertex x="-38.9" y="43.4"/>
 <vertex x="-20.1" y="24.6"/>
+<vertex x="-13" y="27"/>
+<vertex x="0" y="28.6"/>
+<vertex x="13" y="27"/>
 <vertex x="20.1" y="24.6"/>
-<vertex x="40" y="44.5"/>
-<vertex x="44.5" y="40"/>
-<vertex x="22" y="17.6"/>
-<vertex x="18" y="21.6"/>
-<vertex x="-18.1" y="21.6"/>
-<vertex x="-22.2" y="17.5"/>
+<vertex x="38.9" y="43.4"/>
+<vertex x="43.4" y="38.9"/>
+<vertex x="23.4" y="18.9"/>
+<vertex x="23.4" y="14.7"/>
+<vertex x="17.1" y="21"/>
+<vertex x="-17.1" y="21"/>
+<vertex x="-21.4" y="16.7"/>
 <vertex x="-9.2" y="4.5"/>
-<vertex x="-5.1" y="4.5"/>
-<vertex x="-5.1" y="-1.7"/>
-<vertex x="-6.7" y="-1.7"/>
-<vertex x="-22.1" y="-17.1"/>
-<vertex x="-17.7" y="-21.5"/>
+<vertex x="-5.9" y="4.5"/>
+<vertex x="-5.9" y="-1.8"/>
+<vertex x="-21.1" y="-17"/>
+<vertex x="-17.2" y="-21"/>
 </polygon>
 <contactref element="V9" pad="P1"/>
 <contactref element="V10" pad="P1"/>
 <contactref element="V11" pad="P1"/>
 <contactref element="V12" pad="P1"/>
-<wire x1="28.702" y1="-26.6065" x2="28.702" y2="-26.3525" width="0.762" layer="1"/>
-<wire x1="30.861" y1="-28.7655" x2="28.702" y2="-26.6065" width="0.762" layer="1"/>
-<wire x1="28.702" y1="-26.3525" x2="28.67733125" y2="-26.322665625" width="0.762" layer="1"/>
-<wire x1="30.861" y1="-28.7655" x2="30.90710625" y2="-28.792890625" width="0.762" layer="1"/>
-<wire x1="26.6065" y1="28.702" x2="26.3525" y2="28.702" width="0.762" layer="1"/>
-<wire x1="28.7655" y1="30.861" x2="26.6065" y2="28.702" width="0.762" layer="1"/>
-<wire x1="26.3525" y1="28.702" x2="26.322665625" y2="28.67733125" width="0.762" layer="1"/>
-<wire x1="28.7655" y1="30.861" x2="28.792890625" y2="30.90710625" width="0.762" layer="1"/>
-<wire x1="-28.702" y1="26.6065" x2="-28.702" y2="26.3525" width="0.762" layer="1"/>
-<wire x1="-30.861" y1="28.7655" x2="-28.702" y2="26.6065" width="0.762" layer="1"/>
-<wire x1="-28.702" y1="26.3525" x2="-28.67733125" y2="26.322665625" width="0.762" layer="1"/>
-<wire x1="-30.861" y1="28.7655" x2="-30.90710625" y2="28.792890625" width="0.762" layer="1"/>
-<wire x1="-26.6065" y1="-28.702" x2="-26.3525" y2="-28.702" width="0.762" layer="1"/>
-<wire x1="-28.7655" y1="-30.861" x2="-26.6065" y2="-28.702" width="0.762" layer="1"/>
-<wire x1="-26.3525" y1="-28.702" x2="-26.322665625" y2="-28.67733125" width="0.762" layer="1"/>
-<wire x1="-28.7655" y1="-30.861" x2="-28.792890625" y2="-30.90710625" width="0.762" layer="1"/>
+<wire x1="25.702" y1="-23.6065" x2="25.702" y2="-23.3525" width="0.762" layer="1"/>
+<wire x1="27.861" y1="-25.7655" x2="25.702" y2="-23.6065" width="0.762" layer="1"/>
+<wire x1="25.702" y1="-23.3525" x2="25.67733125" y2="-23.322665625" width="0.762" layer="1"/>
+<wire x1="27.861" y1="-25.7655" x2="27.90710625" y2="-25.792890625" width="0.762" layer="1"/>
+<wire x1="23.6065" y1="25.702" x2="23.3525" y2="25.702" width="0.762" layer="1"/>
+<wire x1="25.7655" y1="27.861" x2="23.6065" y2="25.702" width="0.762" layer="1"/>
+<wire x1="23.3525" y1="25.702" x2="23.322665625" y2="25.67733125" width="0.762" layer="1"/>
+<wire x1="25.7655" y1="27.861" x2="25.792890625" y2="27.90710625" width="0.762" layer="1"/>
+<wire x1="-25.702" y1="23.6065" x2="-25.702" y2="23.3525" width="0.762" layer="1"/>
+<wire x1="-27.861" y1="25.7655" x2="-25.702" y2="23.6065" width="0.762" layer="1"/>
+<wire x1="-25.702" y1="23.3525" x2="-25.67733125" y2="23.322665625" width="0.762" layer="1"/>
+<wire x1="-27.861" y1="25.7655" x2="-27.90710625" y2="25.792890625" width="0.762" layer="1"/>
+<wire x1="-23.6065" y1="-25.702" x2="-23.3525" y2="-25.702" width="0.762" layer="1"/>
+<wire x1="-25.7655" y1="-27.861" x2="-23.6065" y2="-25.702" width="0.762" layer="1"/>
+<wire x1="-23.3525" y1="-25.702" x2="-23.322665625" y2="-25.67733125" width="0.762" layer="1"/>
+<wire x1="-25.7655" y1="-27.861" x2="-25.792890625" y2="-27.90710625" width="0.762" layer="1"/>
 <wire x1="-9.398" y1="5.5245" x2="-9.398" y2="7.239" width="0.762" layer="1"/>
 <wire x1="-9.017" y1="5.1435" x2="-9.398" y2="5.5245" width="0.762" layer="1"/>
 <wire x1="-9.398" y1="7.239" x2="-9.4" y2="7.25" width="0.762" layer="1"/>
@@ -6410,30 +6419,30 @@ design rules under a new name.</description>
 <wire x1="-13.9065" y1="3.4925" x2="-16.5735" y2="3.4925" width="0.762" layer="1"/>
 <wire x1="-16.5735" y1="3.4925" x2="-16.6" y2="3.455" width="0.762" layer="1"/>
 <wire x1="-13.9065" y1="3.4925" x2="-13.9" y2="3.44" width="0.762" layer="1"/>
-<wire x1="33.793825" y1="33.793825" x2="32" y2="32" width="0.762" layer="1"/>
-<wire x1="-32" y1="-32" x2="-33.793825" y2="-33.793825" width="0.762" layer="1"/>
-<wire x1="-32" y1="32" x2="-33.793825" y2="33.793825" width="0.762" layer="1"/>
-<wire x1="32" y1="-32" x2="33.793825" y2="-33.793825" width="0.762" layer="1"/>
+<wire x1="30.793825" y1="30.793825" x2="29" y2="29" width="0.762" layer="1"/>
+<wire x1="-29" y1="-29" x2="-30.793825" y2="-30.793825" width="0.762" layer="1"/>
+<wire x1="-29" y1="29" x2="-30.793825" y2="30.793825" width="0.762" layer="1"/>
+<wire x1="29" y1="-29" x2="30.793825" y2="-30.793825" width="0.762" layer="1"/>
 <wire x1="-11.938" y1="5.334" x2="-9.7155" y2="5.334" width="0.762" layer="1"/>
 <wire x1="-13.589" y1="3.683" x2="-11.938" y2="5.334" width="0.762" layer="1"/>
 <wire x1="-9.7155" y1="5.334" x2="-9.398" y2="5.5245" width="0.762" layer="1"/>
 <wire x1="-13.589" y1="3.683" x2="-13.9" y2="3.44" width="0.762" layer="1"/>
-<wire x1="-30.7975" y1="-31.0515" x2="-29.1465" y2="-31.0515" width="0.762" layer="1"/>
-<wire x1="-31.623" y1="-31.877" x2="-30.7975" y2="-31.0515" width="0.762" layer="1"/>
-<wire x1="-29.1465" y1="-31.0515" x2="-28.792890625" y2="-30.90710625" width="0.762" layer="1"/>
-<wire x1="-31.623" y1="-31.877" x2="-32" y2="-32" width="0.762" layer="1"/>
-<wire x1="-31.0515" y1="30.7975" x2="-31.0515" y2="29.1465" width="0.762" layer="1"/>
-<wire x1="-31.877" y1="31.623" x2="-31.0515" y2="30.7975" width="0.762" layer="1"/>
-<wire x1="-31.0515" y1="29.1465" x2="-30.90710625" y2="28.792890625" width="0.762" layer="1"/>
-<wire x1="-31.877" y1="31.623" x2="-32" y2="32" width="0.762" layer="1"/>
-<wire x1="30.7975" y1="31.0515" x2="29.1465" y2="31.0515" width="0.762" layer="1"/>
-<wire x1="31.623" y1="31.877" x2="30.7975" y2="31.0515" width="0.762" layer="1"/>
-<wire x1="29.1465" y1="31.0515" x2="28.792890625" y2="30.90710625" width="0.762" layer="1"/>
-<wire x1="31.623" y1="31.877" x2="32" y2="32" width="0.762" layer="1"/>
-<wire x1="31.0515" y1="-30.7975" x2="31.0515" y2="-29.1465" width="0.762" layer="1"/>
-<wire x1="31.877" y1="-31.623" x2="31.0515" y2="-30.7975" width="0.762" layer="1"/>
-<wire x1="31.0515" y1="-29.1465" x2="30.90710625" y2="-28.792890625" width="0.762" layer="1"/>
-<wire x1="31.877" y1="-31.623" x2="32" y2="-32" width="0.762" layer="1"/>
+<wire x1="-27.7975" y1="-28.0515" x2="-26.1465" y2="-28.0515" width="0.762" layer="1"/>
+<wire x1="-28.623" y1="-28.877" x2="-27.7975" y2="-28.0515" width="0.762" layer="1"/>
+<wire x1="-26.1465" y1="-28.0515" x2="-25.792890625" y2="-27.90710625" width="0.762" layer="1"/>
+<wire x1="-28.623" y1="-28.877" x2="-29" y2="-29" width="0.762" layer="1"/>
+<wire x1="-28.0515" y1="27.7975" x2="-28.0515" y2="26.1465" width="0.762" layer="1"/>
+<wire x1="-28.877" y1="28.623" x2="-28.0515" y2="27.7975" width="0.762" layer="1"/>
+<wire x1="-28.0515" y1="26.1465" x2="-27.90710625" y2="25.792890625" width="0.762" layer="1"/>
+<wire x1="-28.877" y1="28.623" x2="-29" y2="29" width="0.762" layer="1"/>
+<wire x1="27.7975" y1="28.0515" x2="26.1465" y2="28.0515" width="0.762" layer="1"/>
+<wire x1="28.623" y1="28.877" x2="27.7975" y2="28.0515" width="0.762" layer="1"/>
+<wire x1="26.1465" y1="28.0515" x2="25.792890625" y2="27.90710625" width="0.762" layer="1"/>
+<wire x1="28.623" y1="28.877" x2="29" y2="29" width="0.762" layer="1"/>
+<wire x1="28.0515" y1="-27.7975" x2="28.0515" y2="-26.1465" width="0.762" layer="1"/>
+<wire x1="28.877" y1="-28.623" x2="28.0515" y2="-27.7975" width="0.762" layer="1"/>
+<wire x1="28.0515" y1="-26.1465" x2="27.90710625" y2="-25.792890625" width="0.762" layer="1"/>
+<wire x1="28.877" y1="-28.623" x2="29" y2="-29" width="0.762" layer="1"/>
 </signal>
 <signal name="BAT_GND" class="2">
 <contactref element="N1" pad="1"/>
@@ -6450,37 +6459,44 @@ design rules under a new name.</description>
 <contactref element="J3" pad="10"/>
 <contactref element="D7" pad="C"/>
 <polygon width="0.5" layer="2" isolate="0.05" orphans="yes">
-<vertex x="-6.7" y="-21.5"/>
-<vertex x="-6.7" y="-25.1"/>
-<vertex x="14.2" y="-25.1"/>
-<vertex x="21.9" y="-17.4"/>
-<vertex x="44.5" y="-40"/>
-<vertex x="40" y="-44.5"/>
+<vertex x="-6.1" y="-21"/>
+<vertex x="-6.1" y="-25.1"/>
+<vertex x="13" y="-25.1"/>
+<vertex x="23.4" y="-14.7"/>
+<vertex x="23.4" y="-18.9"/>
+<vertex x="43.4" y="-38.9"/>
+<vertex x="38.9" y="-43.4"/>
 <vertex x="20.1" y="-24.6"/>
-<vertex x="12.8" y="-26.9"/>
-<vertex x="0" y="-28.5"/>
-<vertex x="-12.8" y="-26.9"/>
+<vertex x="13" y="-27"/>
+<vertex x="0" y="-28.6"/>
+<vertex x="-13" y="-27"/>
 <vertex x="-20.1" y="-24.6"/>
-<vertex x="-40" y="-44.5"/>
-<vertex x="-44.5" y="-40"/>
+<vertex x="-38.9" y="-43.4"/>
+<vertex x="-43.4" y="-38.9"/>
 <vertex x="-24.6" y="-20.1"/>
+<vertex x="-27" y="-13"/>
+<vertex x="-28.6" y="0"/>
+<vertex x="-27" y="13"/>
 <vertex x="-24.6" y="20.1"/>
-<vertex x="-44.5" y="40"/>
-<vertex x="-40" y="44.5"/>
+<vertex x="-43.4" y="38.9"/>
+<vertex x="-38.9" y="43.4"/>
 <vertex x="-20.1" y="24.6"/>
+<vertex x="-13" y="27"/>
+<vertex x="0" y="28.6"/>
+<vertex x="13" y="27"/>
 <vertex x="20.1" y="24.6"/>
-<vertex x="40" y="44.5"/>
-<vertex x="44.5" y="40"/>
-<vertex x="22" y="17.6"/>
-<vertex x="18" y="21.6"/>
-<vertex x="-18.1" y="21.6"/>
-<vertex x="-22.2" y="17.5"/>
+<vertex x="38.9" y="43.4"/>
+<vertex x="43.4" y="38.9"/>
+<vertex x="23.4" y="18.9"/>
+<vertex x="23.4" y="14.7"/>
+<vertex x="17.1" y="21"/>
+<vertex x="-17.1" y="21"/>
+<vertex x="-21.4" y="16.7"/>
 <vertex x="-9.2" y="4.5"/>
-<vertex x="-5.1" y="4.5"/>
-<vertex x="-5.1" y="-1.7"/>
-<vertex x="-6.7" y="-1.7"/>
-<vertex x="-22.1" y="-17.1"/>
-<vertex x="-17.7" y="-21.5"/>
+<vertex x="-5.9" y="4.5"/>
+<vertex x="-5.9" y="-1.8"/>
+<vertex x="-21.1" y="-17"/>
+<vertex x="-17.1" y="-21"/>
 </polygon>
 <contactref element="V5" pad="P1"/>
 <contactref element="V6" pad="P1"/>
@@ -6493,18 +6509,18 @@ design rules under a new name.</description>
 <wire x1="-7.493" y1="0.5715" x2="-11.303" y2="-3.2385" width="0.762" layer="1"/>
 <wire x1="-16.5735" y1="-3.2385" x2="-16.59" y2="-3.25" width="0.762" layer="1"/>
 <wire x1="-7.493" y1="0.5715" x2="-7.23" y2="0.865" width="0.762" layer="1"/>
-<wire x1="-40" y1="-40" x2="-38.206171875" y2="-38.206171875" width="0.762" layer="1"/>
-<wire x1="40" y1="-40" x2="38.206171875" y2="-38.206171875" width="0.762" layer="1"/>
-<wire x1="-40" y1="40" x2="-38.206171875" y2="38.206171875" width="0.762" layer="1"/>
-<wire x1="40" y1="40" x2="38.206171875" y2="38.206171875" width="0.762" layer="1"/>
-<wire x1="21.6535" y1="-24.4475" x2="22.352" y2="-23.749" width="0.762" layer="1"/>
-<wire x1="22.352" y1="-23.749" x2="22.355975" y2="-23.699478125" width="0.762" layer="1"/>
-<wire x1="-24.4475" y1="-21.6535" x2="-23.749" y2="-22.352" width="0.762" layer="1"/>
-<wire x1="-23.749" y1="-22.352" x2="-23.699478125" y2="-22.355975" width="0.762" layer="1"/>
-<wire x1="-21.6535" y1="24.4475" x2="-22.352" y2="23.749" width="0.762" layer="1"/>
-<wire x1="-22.352" y1="23.749" x2="-22.355975" y2="23.699478125" width="0.762" layer="1"/>
-<wire x1="24.4475" y1="21.6535" x2="23.749" y2="22.352" width="0.762" layer="1"/>
-<wire x1="23.749" y1="22.352" x2="23.699478125" y2="22.355975" width="0.762" layer="1"/>
+<wire x1="-37" y1="-37" x2="-35.206171875" y2="-35.206171875" width="0.762" layer="1"/>
+<wire x1="37" y1="-37" x2="35.206171875" y2="-35.206171875" width="0.762" layer="1"/>
+<wire x1="-37" y1="37" x2="-35.206171875" y2="35.206171875" width="0.762" layer="1"/>
+<wire x1="37" y1="37" x2="35.206171875" y2="35.206171875" width="0.762" layer="1"/>
+<wire x1="18.6535" y1="-21.4475" x2="19.352" y2="-20.749" width="0.762" layer="1"/>
+<wire x1="19.352" y1="-20.749" x2="19.355975" y2="-20.699478125" width="0.762" layer="1"/>
+<wire x1="-21.4475" y1="-18.6535" x2="-20.749" y2="-19.352" width="0.762" layer="1"/>
+<wire x1="-20.749" y1="-19.352" x2="-20.699478125" y2="-19.355975" width="0.762" layer="1"/>
+<wire x1="-18.6535" y1="21.4475" x2="-19.352" y2="20.749" width="0.762" layer="1"/>
+<wire x1="-19.352" y1="20.749" x2="-19.355975" y2="20.699478125" width="0.762" layer="1"/>
+<wire x1="21.4475" y1="18.6535" x2="20.749" y2="19.352" width="0.762" layer="1"/>
+<wire x1="20.749" y1="19.352" x2="20.699478125" y2="19.355975" width="0.762" layer="1"/>
 <wire x1="-9.030328125" y1="-3.56966875" x2="-7.23" y2="-1.769340625" width="0.762" layer="1"/>
 <wire x1="-7.23" y1="-1.769340625" x2="-7.23" y2="0.865" width="0.762" layer="1"/>
 <contactref element="V38" pad="P1"/>
@@ -6516,14 +6532,14 @@ design rules under a new name.</description>
 <contactref element="M1" pad="V-"/>
 <contactref element="D1" pad="A"/>
 <contactref element="Q1" pad="D"/>
-<wire x1="-26.6065" y1="28.702" x2="-26.3525" y2="28.702" width="0.762" layer="1"/>
-<wire x1="-28.7655" y1="30.861" x2="-26.6065" y2="28.702" width="0.762" layer="1"/>
-<wire x1="-26.3525" y1="28.702" x2="-26.322665625" y2="28.67733125" width="0.762" layer="1"/>
-<wire x1="-28.7655" y1="30.861" x2="-28.785784375" y2="30.9142125" width="0.762" layer="1"/>
-<wire x1="-25.2095" y1="27.3685" x2="-25.2095" y2="25.2095" width="0.762" layer="1"/>
-<wire x1="-26.162" y1="28.321" x2="-25.2095" y2="27.3685" width="0.762" layer="1"/>
-<wire x1="-25.2095" y1="25.2095" x2="-25.166725" y2="25.166725" width="0.762" layer="1"/>
-<wire x1="-26.162" y1="28.321" x2="-26.322665625" y2="28.67733125" width="0.762" layer="1"/>
+<wire x1="-23.6065" y1="25.702" x2="-23.3525" y2="25.702" width="0.762" layer="1"/>
+<wire x1="-25.7655" y1="27.861" x2="-23.6065" y2="25.702" width="0.762" layer="1"/>
+<wire x1="-23.3525" y1="25.702" x2="-23.322665625" y2="25.67733125" width="0.762" layer="1"/>
+<wire x1="-25.7655" y1="27.861" x2="-25.785784375" y2="27.9142125" width="0.762" layer="1"/>
+<wire x1="-22.2095" y1="24.3685" x2="-22.2095" y2="22.2095" width="0.762" layer="1"/>
+<wire x1="-23.162" y1="25.321" x2="-22.2095" y2="24.3685" width="0.762" layer="1"/>
+<wire x1="-22.2095" y1="22.2095" x2="-22.166725" y2="22.166725" width="0.762" layer="1"/>
+<wire x1="-23.162" y1="25.321" x2="-23.322665625" y2="25.67733125" width="0.762" layer="1"/>
 </signal>
 <signal name="C21">
 <contactref element="Q1" pad="G"/>
@@ -6536,10 +6552,10 @@ design rules under a new name.</description>
 <wire x1="-16.002" y1="17.5895" x2="-16.0247125" y2="17.6247125" width="0.127" layer="1"/>
 <wire x1="-16.002" y1="16.0655" x2="-17.653" y2="16.0655" width="0.127" layer="1"/>
 <wire x1="-17.653" y1="16.0655" x2="-17.6671375" y2="16.0671375" width="0.127" layer="1"/>
-<wire x1="-22.6695" y1="22.352" x2="-23.6855" y2="22.352" width="0.127" layer="1"/>
-<wire x1="-17.7165" y1="17.399" x2="-22.6695" y2="22.352" width="0.127" layer="1"/>
+<wire x1="-19.6215" y1="19.304" x2="-20.6375" y2="19.304" width="0.127" layer="1"/>
+<wire x1="-17.7165" y1="17.399" x2="-19.6215" y2="19.304" width="0.127" layer="1"/>
 <wire x1="-17.7165" y1="16.129" x2="-17.7165" y2="17.399" width="0.127" layer="1"/>
-<wire x1="-23.6855" y1="22.352" x2="-23.699478125" y2="22.355975" width="0.127" layer="1"/>
+<wire x1="-20.6375" y1="19.304" x2="-20.699478125" y2="19.355975" width="0.127" layer="1"/>
 <wire x1="-17.7165" y1="16.129" x2="-17.6671375" y2="16.0671375" width="0.127" layer="1"/>
 </signal>
 <signal name="PWM1">
@@ -6568,14 +6584,14 @@ design rules under a new name.</description>
 <contactref element="M2" pad="V-"/>
 <contactref element="D2" pad="A"/>
 <contactref element="Q2" pad="D"/>
-<wire x1="28.702" y1="26.6065" x2="28.702" y2="26.3525" width="0.762" layer="1"/>
-<wire x1="30.861" y1="28.7655" x2="28.702" y2="26.6065" width="0.762" layer="1"/>
-<wire x1="28.702" y1="26.3525" x2="28.67733125" y2="26.322665625" width="0.762" layer="1"/>
-<wire x1="30.861" y1="28.7655" x2="30.9142125" y2="28.785784375" width="0.762" layer="1"/>
-<wire x1="27.3685" y1="25.2095" x2="25.2095" y2="25.2095" width="0.762" layer="1"/>
-<wire x1="28.321" y1="26.162" x2="27.3685" y2="25.2095" width="0.762" layer="1"/>
-<wire x1="25.2095" y1="25.2095" x2="25.166725" y2="25.166725" width="0.762" layer="1"/>
-<wire x1="28.321" y1="26.162" x2="28.67733125" y2="26.322665625" width="0.762" layer="1"/>
+<wire x1="25.702" y1="23.6065" x2="25.702" y2="23.3525" width="0.762" layer="1"/>
+<wire x1="27.861" y1="25.7655" x2="25.702" y2="23.6065" width="0.762" layer="1"/>
+<wire x1="25.702" y1="23.3525" x2="25.67733125" y2="23.322665625" width="0.762" layer="1"/>
+<wire x1="27.861" y1="25.7655" x2="27.9142125" y2="25.785784375" width="0.762" layer="1"/>
+<wire x1="24.3685" y1="22.2095" x2="22.2095" y2="22.2095" width="0.762" layer="1"/>
+<wire x1="25.321" y1="23.162" x2="24.3685" y2="22.2095" width="0.762" layer="1"/>
+<wire x1="22.2095" y1="22.2095" x2="22.166725" y2="22.166725" width="0.762" layer="1"/>
+<wire x1="25.321" y1="23.162" x2="25.67733125" y2="23.322665625" width="0.762" layer="1"/>
 </signal>
 <signal name="C22">
 <contactref element="Q2" pad="G"/>
@@ -6590,10 +6606,10 @@ design rules under a new name.</description>
 <wire x1="16.129" y1="15.6845" x2="16.129" y2="17.653" width="0.127" layer="1"/>
 <wire x1="16.129" y1="17.653" x2="16.0671375" y2="17.6671375" width="0.127" layer="1"/>
 <wire x1="16.129" y1="15.6845" x2="15.675284375" y2="15.675284375" width="0.127" layer="1"/>
-<wire x1="22.352" y1="22.6695" x2="22.352" y2="23.6855" width="0.127" layer="1"/>
-<wire x1="17.3355" y1="17.653" x2="22.352" y2="22.6695" width="0.127" layer="1"/>
+<wire x1="19.304" y1="19.6215" x2="19.304" y2="20.6375" width="0.127" layer="1"/>
+<wire x1="17.3355" y1="17.653" x2="19.304" y2="19.6215" width="0.127" layer="1"/>
 <wire x1="16.1925" y1="17.653" x2="17.3355" y2="17.653" width="0.127" layer="1"/>
-<wire x1="22.352" y1="23.6855" x2="22.355975" y2="23.699478125" width="0.127" layer="1"/>
+<wire x1="19.304" y1="20.6375" x2="19.355975" y2="20.699478125" width="0.127" layer="1"/>
 <wire x1="16.1925" y1="17.653" x2="16.0671375" y2="17.6671375" width="0.127" layer="1"/>
 </signal>
 <signal name="PWM2">
@@ -6622,14 +6638,14 @@ design rules under a new name.</description>
 <contactref element="M3" pad="V-"/>
 <contactref element="D3" pad="A"/>
 <contactref element="Q3" pad="D"/>
-<wire x1="-28.702" y1="-26.6065" x2="-28.702" y2="-26.3525" width="0.762" layer="1"/>
-<wire x1="-30.861" y1="-28.7655" x2="-28.702" y2="-26.6065" width="0.762" layer="1"/>
-<wire x1="-28.702" y1="-26.3525" x2="-28.67733125" y2="-26.322665625" width="0.762" layer="1"/>
-<wire x1="-30.861" y1="-28.7655" x2="-30.9142125" y2="-28.785784375" width="0.762" layer="1"/>
-<wire x1="-27.3685" y1="-25.2095" x2="-25.2095" y2="-25.2095" width="0.762" layer="1"/>
-<wire x1="-28.321" y1="-26.162" x2="-27.3685" y2="-25.2095" width="0.762" layer="1"/>
-<wire x1="-25.2095" y1="-25.2095" x2="-25.166725" y2="-25.166725" width="0.762" layer="1"/>
-<wire x1="-28.321" y1="-26.162" x2="-28.67733125" y2="-26.322665625" width="0.762" layer="1"/>
+<wire x1="-25.702" y1="-23.6065" x2="-25.702" y2="-23.3525" width="0.762" layer="1"/>
+<wire x1="-27.861" y1="-25.7655" x2="-25.702" y2="-23.6065" width="0.762" layer="1"/>
+<wire x1="-25.702" y1="-23.3525" x2="-25.67733125" y2="-23.322665625" width="0.762" layer="1"/>
+<wire x1="-27.861" y1="-25.7655" x2="-27.9142125" y2="-25.785784375" width="0.762" layer="1"/>
+<wire x1="-24.3685" y1="-22.2095" x2="-22.2095" y2="-22.2095" width="0.762" layer="1"/>
+<wire x1="-25.321" y1="-23.162" x2="-24.3685" y2="-22.2095" width="0.762" layer="1"/>
+<wire x1="-22.2095" y1="-22.2095" x2="-22.166725" y2="-22.166725" width="0.762" layer="1"/>
+<wire x1="-25.321" y1="-23.162" x2="-25.67733125" y2="-23.322665625" width="0.762" layer="1"/>
 </signal>
 <signal name="C23">
 <contactref element="Q3" pad="G"/>
@@ -6642,24 +6658,24 @@ design rules under a new name.</description>
 <wire x1="-17.5895" y1="-16.002" x2="-17.6247125" y2="-16.0247125" width="0.127" layer="1"/>
 <wire x1="-16.0655" y1="-16.002" x2="-16.0655" y2="-17.653" width="0.127" layer="1"/>
 <wire x1="-16.0655" y1="-17.653" x2="-16.0671375" y2="-17.6671375" width="0.127" layer="1"/>
-<wire x1="-22.352" y1="-22.6695" x2="-22.352" y2="-23.6855" width="0.127" layer="1"/>
-<wire x1="-17.399" y1="-17.7165" x2="-22.352" y2="-22.6695" width="0.127" layer="1"/>
+<wire x1="-19.304" y1="-19.6215" x2="-19.304" y2="-20.6375" width="0.127" layer="1"/>
+<wire x1="-17.399" y1="-17.7165" x2="-19.304" y2="-19.6215" width="0.127" layer="1"/>
 <wire x1="-16.129" y1="-17.7165" x2="-17.399" y2="-17.7165" width="0.127" layer="1"/>
-<wire x1="-22.352" y1="-23.6855" x2="-22.355975" y2="-23.699478125" width="0.127" layer="1"/>
+<wire x1="-19.304" y1="-20.6375" x2="-19.355975" y2="-20.699478125" width="0.127" layer="1"/>
 <wire x1="-16.129" y1="-17.7165" x2="-16.0671375" y2="-17.6671375" width="0.127" layer="1"/>
 </signal>
 <signal name="M4" class="2">
 <contactref element="M4" pad="V-"/>
 <contactref element="D4" pad="A"/>
 <contactref element="Q4" pad="D"/>
-<wire x1="26.6065" y1="-28.702" x2="26.3525" y2="-28.702" width="0.762" layer="1"/>
-<wire x1="28.7655" y1="-30.861" x2="26.6065" y2="-28.702" width="0.762" layer="1"/>
-<wire x1="26.3525" y1="-28.702" x2="26.322665625" y2="-28.67733125" width="0.762" layer="1"/>
-<wire x1="28.7655" y1="-30.861" x2="28.785784375" y2="-30.9142125" width="0.762" layer="1"/>
-<wire x1="25.2095" y1="-27.3685" x2="25.2095" y2="-25.2095" width="0.762" layer="1"/>
-<wire x1="26.162" y1="-28.321" x2="25.2095" y2="-27.3685" width="0.762" layer="1"/>
-<wire x1="25.2095" y1="-25.2095" x2="25.166725" y2="-25.166725" width="0.762" layer="1"/>
-<wire x1="26.162" y1="-28.321" x2="26.322665625" y2="-28.67733125" width="0.762" layer="1"/>
+<wire x1="23.6065" y1="-25.702" x2="23.3525" y2="-25.702" width="0.762" layer="1"/>
+<wire x1="25.7655" y1="-27.861" x2="23.6065" y2="-25.702" width="0.762" layer="1"/>
+<wire x1="23.3525" y1="-25.702" x2="23.322665625" y2="-25.67733125" width="0.762" layer="1"/>
+<wire x1="25.7655" y1="-27.861" x2="25.785784375" y2="-27.9142125" width="0.762" layer="1"/>
+<wire x1="22.2095" y1="-24.3685" x2="22.2095" y2="-22.2095" width="0.762" layer="1"/>
+<wire x1="23.162" y1="-25.321" x2="22.2095" y2="-24.3685" width="0.762" layer="1"/>
+<wire x1="22.2095" y1="-22.2095" x2="22.166725" y2="-22.166725" width="0.762" layer="1"/>
+<wire x1="23.162" y1="-25.321" x2="23.322665625" y2="-25.67733125" width="0.762" layer="1"/>
 </signal>
 <signal name="C24">
 <contactref element="Q4" pad="G"/>
@@ -6672,10 +6688,10 @@ design rules under a new name.</description>
 <wire x1="16.002" y1="-17.5895" x2="16.0247125" y2="-17.6247125" width="0.127" layer="1"/>
 <wire x1="16.002" y1="-16.0655" x2="17.653" y2="-16.0655" width="0.127" layer="1"/>
 <wire x1="17.653" y1="-16.0655" x2="17.6671375" y2="-16.0671375" width="0.127" layer="1"/>
-<wire x1="22.6695" y1="-22.352" x2="23.6855" y2="-22.352" width="0.127" layer="1"/>
-<wire x1="17.7165" y1="-17.399" x2="22.6695" y2="-22.352" width="0.127" layer="1"/>
+<wire x1="19.6215" y1="-19.304" x2="20.6375" y2="-19.304" width="0.127" layer="1"/>
+<wire x1="17.7165" y1="-17.399" x2="19.6215" y2="-19.304" width="0.127" layer="1"/>
 <wire x1="17.7165" y1="-16.129" x2="17.7165" y2="-17.399" width="0.127" layer="1"/>
-<wire x1="23.6855" y1="-22.352" x2="23.699478125" y2="-22.355975" width="0.127" layer="1"/>
+<wire x1="20.6375" y1="-19.304" x2="20.699478125" y2="-19.355975" width="0.127" layer="1"/>
 <wire x1="17.7165" y1="-16.129" x2="17.6671375" y2="-16.0671375" width="0.127" layer="1"/>
 </signal>
 <signal name="D5">
