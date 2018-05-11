@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -234,16 +234,16 @@
 <vertex x="1.5" y="1.2"/>
 </polygon>
 <polygon width="0.5" layer="41">
-<vertex x="21.6" y="7.3"/>
-<vertex x="28.3" y="7.3"/>
+<vertex x="21.6" y="7.8"/>
+<vertex x="28.3" y="7.8"/>
 <vertex x="28.3" y="-6.4"/>
 <vertex x="21.6" y="-6.4"/>
 </polygon>
 <polygon width="0.5" layer="42">
-<vertex x="21.6" y="7.3"/>
+<vertex x="21.6" y="7.8"/>
 <vertex x="21.6" y="-6.4"/>
 <vertex x="28.3" y="-6.4"/>
-<vertex x="28.3" y="7.3"/>
+<vertex x="28.3" y="7.8"/>
 </polygon>
 <text x="10.4292875" y="-27.0292875" size="1.27" layer="21" font="vector">GND</text>
 <text x="8.4" y="-25.9" size="1.27" layer="21" font="vector">3V</text>
@@ -7489,10 +7489,10 @@ design rules under a new name.</description>
 <vertex x="-5.1" y="-24.2"/>
 <vertex x="13" y="-24.2"/>
 <vertex x="21" y="-16.2"/>
-<vertex x="21" y="-6.4"/>
-<vertex x="16.8" y="-6.4"/>
-<vertex x="16.8" y="7.3"/>
-<vertex x="21" y="7.3"/>
+<vertex x="21" y="-7.1"/>
+<vertex x="16.1" y="-7.1"/>
+<vertex x="16.1" y="8.5"/>
+<vertex x="21" y="8.5"/>
 <vertex x="21" y="16.1"/>
 <vertex x="17.1" y="20"/>
 <vertex x="-17.1" y="20"/>
@@ -7674,8 +7674,8 @@ design rules under a new name.</description>
 <polygon width="0.5" layer="1" isolate="0.01" orphans="yes">
 <vertex x="16.8" y="-6.4"/>
 <vertex x="21" y="-6.4"/>
-<vertex x="21" y="7.3"/>
-<vertex x="16.8" y="7.3"/>
+<vertex x="21" y="7.8"/>
+<vertex x="16.8" y="7.8"/>
 </polygon>
 <polygon width="0.5" layer="2" isolate="0.05" orphans="yes">
 <vertex x="-5" y="2.8"/>
@@ -7916,6 +7916,12 @@ design rules under a new name.</description>
 <wire x1="20.0025" y1="6.5405" x2="19.999965625" y2="6.5000125" width="0.127" layer="2"/>
 <wire x1="19.177" y1="6.477" x2="19" y2="6.5" width="0.127" layer="2"/>
 <wire x1="19.177" y1="6.477" x2="19.177" y2="6.49998125" width="0.127" layer="2"/>
+<polygon width="0.5" layer="15">
+<vertex x="21" y="7.8"/>
+<vertex x="16.8" y="7.8"/>
+<vertex x="16.8" y="-6.4"/>
+<vertex x="21" y="-6.4"/>
+</polygon>
 </signal>
 <signal name="C6">
 <contactref element="U1" pad="60"/>
