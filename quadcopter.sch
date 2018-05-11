@@ -4039,6 +4039,8 @@ diameter: 0.454</description>
 <part name="V39" library="quadparts_prebuilt" deviceset="LOCKED-VIA" device="-0.254"/>
 <part name="V40" library="quadparts_prebuilt" deviceset="LOCKED-VIA" device="-0.254"/>
 <part name="V41" library="quadparts_prebuilt" deviceset="LOCKED-VIA" device="-0.254"/>
+<part name="V42" library="quadparts_prebuilt" deviceset="LOCKED-VIA" device="-0.254"/>
+<part name="V43" library="quadparts_prebuilt" deviceset="LOCKED-VIA" device="-0.254"/>
 </parts>
 <sheets>
 <sheet>
@@ -4229,7 +4231,7 @@ Header</text>
 <instance part="V18" gate="G$1" x="55.88" y="30.48" rot="R90"/>
 <instance part="V19" gate="G$1" x="60.96" y="30.48" rot="R90"/>
 <instance part="V20" gate="G$1" x="66.04" y="30.48" rot="R90"/>
-<instance part="GND36" gate="1" x="93.98" y="25.4"/>
+<instance part="GND36" gate="1" x="124.46" y="25.4"/>
 <instance part="V21" gate="G$1" x="33.02" y="30.48" rot="R270"/>
 <instance part="V22" gate="G$1" x="38.1" y="30.48" rot="R270"/>
 <instance part="V23" gate="G$1" x="43.18" y="30.48" rot="R270"/>
@@ -4254,6 +4256,8 @@ Header</text>
 <instance part="V39" gate="G$1" x="101.6" y="63.5" rot="R270"/>
 <instance part="V40" gate="G$1" x="106.68" y="63.5" rot="R270"/>
 <instance part="V41" gate="G$1" x="111.76" y="63.5" rot="R270"/>
+<instance part="V42" gate="G$1" x="93.98" y="30.48" rot="R270"/>
+<instance part="V43" gate="G$1" x="96.52" y="30.48" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -4834,7 +4838,9 @@ Header</text>
 <pinref part="GND36" gate="1" pin="GND"/>
 <wire x1="88.9" y1="30.48" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="30.48" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="30.48" x2="96.52" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="30.48" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="30.48" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="V2" gate="G$1" pin="VIA"/>
 <junction x="91.44" y="30.48"/>
 <pinref part="V4" gate="G$1" pin="VIA"/>
@@ -4843,6 +4849,10 @@ Header</text>
 <junction x="83.82" y="30.48"/>
 <pinref part="V36" gate="G$1" pin="VIA"/>
 <junction x="88.9" y="30.48"/>
+<pinref part="V42" gate="G$1" pin="N"/>
+<junction x="93.98" y="30.48"/>
+<pinref part="V43" gate="G$1" pin="N"/>
+<junction x="96.52" y="30.48"/>
 </segment>
 </net>
 <net name="C6" class="0">
